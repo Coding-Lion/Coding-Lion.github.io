@@ -12,9 +12,10 @@ body {
 
 #background {
   z-index: -100;
-  background-image: radial-gradient(circle at 105% 55%, #B70032 18%, #DADEE100 18%, #DADEE100 100%), 
-  radial-gradient(circle at 30% 30%, #B70032 4%, #DADEE100 4%, #DADEE100 100%), 
-  radial-gradient(circle at 0% 95%, #B70032 12%, #DADEE1 12%, #DADEE1 100%);
+  background-image: 
+  /* radial-gradient(circle at 105% 55%, #B70032 17%, #DADEE100 18%, #DADEE100 100%),  */
+  /* radial-gradient(circle at 30% 30%, #B70032 4.5%, #DADEE100 5%, #DADEE100 100%),  */
+  radial-gradient(circle at 0% 95%, #B70032 11%, #DADEE1 12%, #DADEE1 100%);
 
   position: fixed;
   width: 100%;
@@ -132,7 +133,7 @@ h1 {
 }
 
 #center {
-  min-width: 550px;
+  min-width: 540px;
 }
 
 #center h2 {
@@ -170,7 +171,7 @@ a {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
-  padding: 16px;
+  padding: 14px;
   page-break-inside: avoid;
   max-width: 600px;
   position: relative;
