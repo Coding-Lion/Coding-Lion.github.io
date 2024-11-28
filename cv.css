@@ -55,7 +55,7 @@ main {
   margin-right: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-top: 16px;
+  /* padding-top: 16px; */
 }
 
 img {
@@ -175,6 +175,10 @@ a {
   page-break-inside: avoid;
   max-width: 600px;
   position: relative;
+}
+
+.card > .small {
+  font-size: 12px;
 }
 
 #background::before {
